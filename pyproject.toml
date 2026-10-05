@@ -38,6 +38,7 @@ dynamic = ["license", "version", "dependencies", "optional-dependencies"]
 [project.urls]
 "Source code" = "https://github.com/gitpython-developers/GitPython"
 "Documentation" = "https://gitpython.readthedocs.io/en/stable/"
+"Changelog" = "https://github.com/gitpython-developers/GitPython/blob/main/doc/source/changes.rst"
 
 [dependency-groups]
 doc = [
@@ -154,4 +155,3 @@ lint.unfixable = [
   "E402",  # environment setup must happen before the `git` module is imported, thus cannot happen at top of file
 ]
 
-# TEST TONG
